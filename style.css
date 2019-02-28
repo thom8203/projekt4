@@ -1,4 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:300);
+
+*{margin: 0; padding: 0;
+}
+
 @media only screen and (min-width: 1200px){
 header {
 width: 100%;
@@ -8,7 +12,7 @@ display: block;}
   width: 20%;
   float: left;
 height: 24vh;
-background-color: #5CCA0E;
+background-color: #007CAA;
 display: block;
   min-width: 220px;
 }
@@ -21,7 +25,7 @@ background-color: #FFF;
 height: 24vh;
 display: block;
 min-width: 950px;
-max-width: 1100px;
+max-width: 1200px;
 }
 
 .nav ul {
@@ -45,7 +49,7 @@ padding-bottom: 4%;
 .nav a {
     text-decoration: none;
     font-family: 'Lato', sans-serif;
-    font-size: 25px;
+    font-size: 145%;
     color: #5CCA0E;
     text-transform: uppercase;
 }
@@ -65,8 +69,7 @@ padding-bottom: 4%;
     width: 80%;
     display: block;
     float: right;
-    border-top: 0.1px black solid;
-    border-bottom: 0.1px #000 solid;
+    border-top: 0.1px #007CAA solid;
     }
 
 .text3 {float: left;width:50%;display: inline;  color: #FFF;background-color: #5CCA0E;
@@ -89,13 +92,34 @@ padding-right: 40px;
 text-align: left;
 }
 
+.text7 {float: left;width:100%;display: inline-block;  color: #5CCA0E;background-color: #FFF;
+text-align: center; height: auto;}
+
+.text7 h1 {
+  font-family: "Roboto";
+  font-size: 30px;
+  text-align: center;
+  transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  padding-top: 100px;
+}
+
+.text7 p {
+  font-size: 20px;
+font-family: 'Roboto';
+padding-left: 40px;
+padding-right: 40px;
+text-align: center;
+}
+
+
 .text {
   width: 50%;
   height: 100vh;
   background-color: #FFF;
   float: right;
   display: inline-block;
-  background-image: url("billed.jpg");
+  background-image: url("aktivitet.png");
   background-size: cover;
   background-position: center;
 }
@@ -108,8 +132,7 @@ text-align: left;
   width: 80%;
   display: block;
   float: right;
-  border-top: 0.1px black solid;
-  border-bottom: 0.1px #000 solid;
+  border-top: 0.1px #007CAA solid;
   }
 
 .text4 {float: right;width:50%;display: inline;  color: #FFF;background-color: #5CCA0E;
@@ -153,38 +176,118 @@ background-image: url("banner.jpg");
 background-size: cover;
 background-position: left;
 display: flex;
-border-top: 0.1px #FFF solid;
-border-right: 0.1px #000 solid;
+border-top: 0.1px #007CAA solid;
+border-right: 0.1px #007CAA solid;
 }
+.button1 {
+  margin: 16vh;
+  padding: 30px;
+  font-size: 20px;
+  background-color: #FFF;
+  color: #5CCA0E;
+  border: 0px;
 }
 
-@media only screen and (max-width: 1200px){
-.line {
-display: none;
+.button1:hover {
+  background-color: #013220;
+  color: #FFF;
+  border: 0px;
 }
 
-.nav ul {
-padding: 0%;
-padding-top:0%;
-padding-bottom: 0%;
+.button2 {
+  margin: 16vh;
+  padding: 30px;
+  font-size: 20px;
+  background-color: #FFF;
+  color: #5CCA0E;
+  border: 0px;
+}
+
+.button2:hover {
+  background-color: #013220;
+  color: #FFF;
+  border: 0px;
+}
+
+.button4 {
+  margin: 2vh;
+  font-size: 20px;
+  background-color: #FFF;
+  color: #5CCA0E;
+  border: 0px;
+  display: block;
+}
+
+.button4 img {
+  width: 30%;
+  height: auto;
+  float: left;
+}
+
+.button4:hover {
+  background-color: #013220;
+  color: #FFF;
+  border: 0px;
+}
+
+.button10 {
+  font-size: 20px;
+  background-color: #FFF;
+  color: #5CCA0E;
+  border: 0px;
+  display: block;
+  width: 100%;
+text-align: left;
+margin-top: 1.0em;
+padding: 1.4em;
+}
+
+.button10 img {
+  width: 20%;
+  height: auto;
 float: left;
-text-align: center;}
+margin-left: 15%; display: blocK;}
 
-.nav li {
-  float: none;
-  margin: 20px;
+.button10 p {
+text-align: center;
+padding: 1.2em;
 }
 
-.nav {
-display: none;
+.button10:hover {
+  background-color: #013220;
+  color: #FFF;
+  border: 0px;
 }
 
-.logo {
-display: none;
+
+
+
+footer {
+  width: 100%;
+  display: inline-block;
+  height: 25vh;
+  background-color: #013220;
+  text-align: center;
 }
 
-.container1 {
-display: none;
-  }
+footer h2 {
+padding-top: 12.5vh;
+font-family: "lato";
+color: #FFF;
+font-size: 125%;
+}
+
+.text6 {
+width: 50%;
+height: 100vh;
+background-color: #FFF;
+float: left;
+display: inline-block;
+background-image: url("borger.jpg");
+background-size: cover;
+background-position: center;
+}
+
+.text1 {}
 
 }
