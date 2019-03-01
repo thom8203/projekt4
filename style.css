@@ -50,7 +50,7 @@ padding-bottom: 4%;
     text-decoration: none;
     font-family: 'Lato', sans-serif;
     font-size: 145%;
-    color: #5CCA0E;
+    color: #007CAA;
     text-transform: uppercase;
 }
 
@@ -63,7 +63,7 @@ padding-bottom: 4%;
 
   .container1 {
     height: 76vh;
-    background-image: url("dk.jpg");
+    background-image: url("fyn.jpg");
     background-position: right;
     background-size: cover;
     width: 80%;
@@ -79,7 +79,7 @@ text-align: center; height: 100vh;}
   font-family: "Roboto";
   font-size: 30px;
   text-align: center;
-  transform: uppercase;
+  text-transform: uppercase;
   font-family: 'Lato', sans-serif;
   padding-top: 100px;
 }
@@ -92,16 +92,17 @@ padding-right: 40px;
 text-align: left;
 }
 
-.text7 {float: left;width:100%;display: inline-block;  color: #5CCA0E;background-color: #FFF;
-text-align: center; height: auto;}
+.text7 {float: left;width:100%;display: inline-block;  color: #FFF;background-color: #013220;
+text-align: center; height: auto;  height: 270vh; border-bottom: 40px solid #5CCA0E;
+}
 
 .text7 h1 {
   font-family: "Roboto";
   font-size: 30px;
   text-align: center;
-  transform: uppercase;
+  text-transform: uppercase;
   font-family: 'Lato', sans-serif;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 .text7 p {
@@ -109,6 +110,7 @@ text-align: center; height: auto;}
 font-family: 'Roboto';
 padding-left: 40px;
 padding-right: 40px;
+padding-bottom: 40px;
 text-align: center;
 }
 
@@ -126,9 +128,9 @@ text-align: center;
 
 .container1 {
   height: 76vh;
-  background-image: url("dk.jpg");
-  background-position: right;
-  background-size: cover;
+  background-image: url("fyn.jpg");
+  background-position: top;
+  background-size: contain;
   width: 80%;
   display: block;
   float: right;
@@ -142,7 +144,7 @@ text-align: center; height: 100vh;}
 font-family: "Roboto";
 font-size: 30px;
 text-align: center;
-transform: uppercase;
+text-transform: uppercase;
 font-family: 'Lato', sans-serif;
 padding-top: 100px;
 }
@@ -209,56 +211,91 @@ border-right: 0.1px #007CAA solid;
   border: 0px;
 }
 
-.button4 {
-  margin: 2vh;
+.button11 {
   font-size: 20px;
   background-color: #FFF;
-  color: #5CCA0E;
+  color: #000;
   border: 0px;
-  display: block;
+  display: inline-block;
+  width: 100%;
+text-align: left;
+margin-top: 1.0em;
+padding: 1.4em;
+background-image: url("ok5.jpg");
+background-size: cover;
+height: 60vh;
 }
 
-.button4 img {
-  width: 30%;
-  height: auto;
-  float: left;
-}
 
-.button4:hover {
-  background-color: #013220;
+.button11:hover {
+  background-image: url("ok4.jpg");
   color: #FFF;
+}
+
+.button12 {
+  font-size: 20px;
+  background-color: #FFF;
+  color: #000;
   border: 0px;
+  display: inline-block;
+  width: 100%;
+text-align: left;
+margin-top: 1.0em;
+padding: 1.4em;
+background-image: url("ok8.jpg");
+background-size: cover;
+height: 60vh;
+}
+
+
+.button12:hover {
+  background-image: url("ok7.jpg");
+  color: #FFF;
+}
+
+
+.button13 {
+  font-size: 20px;
+  background-color: #FFF;
+  color: #000;
+  border: 0px;
+  display: inline-block;
+  width: 100%;
+text-align: left;
+margin-top: 1.0em;
+padding: 1.4em;
+background-image: url("banneret.jpg");
+background-size: cover;
+background-position: center;
+height: 60vh;
+}
+
+
+.button13:hover {
+  background-image: url("banneret.jpg");
+  color: #FFF;
 }
 
 .button10 {
   font-size: 20px;
   background-color: #FFF;
-  color: #5CCA0E;
+  color: #000;
   border: 0px;
-  display: block;
+  display: inline-block;
   width: 100%;
 text-align: left;
 margin-top: 1.0em;
 padding: 1.4em;
+background-image: url("ok2.jpg");
+background-size: cover;
+height: 60vh;
 }
 
-.button10 img {
-  width: 20%;
-  height: auto;
-float: left;
-margin-left: 15%; display: blocK;}
-
-.button10 p {
-text-align: center;
-padding: 1.2em;
-}
 
 .button10:hover {
-  background-color: #013220;
+  background-image: url("ok.jpg");
   color: #FFF;
-  border: 0px;
 }
-
 
 
 
@@ -268,10 +305,14 @@ footer {
   height: 25vh;
   background-color: #013220;
   text-align: center;
+  background-image: url("grass.png");
+    background-repeat: no-repeat;
+  background-position: bottom;
+
 }
 
 footer h2 {
-padding-top: 12.5vh;
+padding-top: 5vh;
 font-family: "lato";
 color: #FFF;
 font-size: 125%;
@@ -291,3 +332,222 @@ background-position: center;
 .text1 {}
 
 }
+
+@media only screen and (max-width: 1200px){
+.nav {
+  display: none;
+}
+
+.text1 {display: none;}
+
+  .text3 {float:left;width:100%;display: inline-block;  color: #FFF; background-color: #5CCA0E;
+  text-align: center; height: auto;}
+
+  .text3 h1 {
+    font-family: "Roboto";
+    font-size: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    padding: 5%;
+    background-color: #007CAA;
+  }
+
+  .text3 p {
+    font-size: 120%;
+  font-family: 'Roboto';
+padding: 40px;
+  text-align: left;
+  }
+  .button1 {
+    margin: 10%;
+    padding: 30px;
+    font-size: 20px;
+    background-color: #FFF;
+    color: #5CCA0E;
+    border: 0px;
+  }
+
+  .button1:hover {
+    background-color: #013220;
+    color: #FFF;
+    border: 0px;
+  }
+
+  .text40 {
+    width: 100%;
+    height: 400px;
+    background-color: #FFF;
+    display: inline-block;
+    background-image: url("aktivitet.png");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .text4 {float:left;width:100%;display: inline-block;  color: #FFF; background-color: #5CCA0E;
+  text-align: center; height: auto;}
+
+  .text4 h1 {
+    font-family: "Roboto";
+    font-size: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    padding: 5%;
+    background-color: #007CAA;
+  }
+
+  .text4 p {
+    font-size: 120%;
+  font-family: 'Roboto';
+  padding: 40px;
+  text-align: left;
+  }
+  .button2 {
+    margin: 10%;
+    padding: 30px;
+    font-size: 20px;
+    background-color: #FFF;
+    color: #5CCA0E;
+    border: 0px;
+  }
+
+  .button2:hover {
+    background-color: #013220;
+    color: #FFF;
+    border: 0px;
+  }
+
+  .text50 {
+    width: 100%;
+    height: 400px;
+    background-color: #FFF;
+    display: inline-block;
+    background-image: url("billed.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .button11 {
+    font-size: 20px;
+    background-color: #FFF;
+    color: #000;
+    border: 0px;
+    display: inline-block;
+    width: 100%;
+  text-align: left;
+  margin-top: 1.0em;
+  padding: 1.4em;
+  background-image: url("ok5.jpg");
+  background-size: cover;
+  height: 60vh;
+  }
+
+
+  .button11:hover {
+    background-image: url("ok4.jpg");
+    color: #FFF;
+  }
+
+  .button12 {
+    font-size: 20px;
+    background-color: #FFF;
+    color: #000;
+    border: 0px;
+    display: inline-block;
+    width: 100%;
+  text-align: left;
+  margin-top: 1.0em;
+  padding: 1.4em;
+  background-image: url("ok8.jpg");
+  background-size: cover;
+  height: 60vh;
+  }
+
+
+  .button12:hover {
+    background-image: url("ok7.jpg");
+    color: #FFF;
+  }
+
+
+  .button13 {
+    font-size: 20px;
+    background-color: #5CCA0E;
+    color: #000;
+    border: 0px;
+    display: inline-block;
+    width: 100%;
+  text-align: left;
+  background-image: url("banneret.jpg");
+  background-size: contain; background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+  }
+
+
+  .button13:hover {
+    color: #FFF;
+    opacity: 0.7;
+  }
+
+  .button10 {
+    font-size: 20px;
+    background-color: #FFF;
+    color: #000;
+    border: 0px;
+    display: inline-block;
+    width: 100%;
+  text-align: left;
+  margin-top: 1.0em;
+  padding: 1.4em;
+  background-image: url("ok2.jpg");
+  background-size: cover;
+  height: 60vh;
+  }
+
+
+  .button10:hover {
+    background-image: url("ok.jpg");
+    color: #FFF;
+  }
+
+  .text7 {float: left;width:100%;display: inline-block;  color: #FFF;background-color: #013220;
+  text-align: center; height: auto;  height: 270vh;
+  }
+
+  .text7 h1 {
+    font-family: "Roboto";
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    padding-top: 50px;
+  }
+
+  .text7 p {
+    font-size: 20px;
+  font-family: 'Roboto';
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  }
+
+  footer {
+    width: 100%;
+    display: inline-block;
+    height: 150px;
+    background-color: #013220;
+    text-align: center;
+
+  }
+
+  footer h2 {
+  padding-top: 4%;
+  font-family: "lato";
+  color: #FFF;
+  font-size: 125%;
+  }
+
+  }
