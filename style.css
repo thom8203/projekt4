@@ -3,6 +3,10 @@
 *{margin: 0; padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @media only screen and (min-width: 1200px){
 header {
 width: 100%;
@@ -49,7 +53,7 @@ padding-bottom: 4%;
 .nav a {
     text-decoration: none;
     font-family: 'Lato', sans-serif;
-    font-size: 145%;
+    font-size: 1.5vw;
     color: #007CAA;
     text-transform: uppercase;
 }
@@ -114,8 +118,15 @@ padding-bottom: 40px;
 text-align: center;
 }
 
-
 .text {
+  width: 50%;
+  height: 100vh;
+  background-color: #FFF;
+  float: right;
+  display: inline-block;
+}
+
+.tex {
   width: 50%;
   height: 100vh;
   background-color: #FFF;
@@ -188,6 +199,21 @@ border-right: 0.1px #007CAA solid;
   background-color: #FFF;
   color: #5CCA0E;
   border: 0px;
+}
+
+.button1 {
+  text-decoration: none;
+  color: #5CCA0E;
+  font-family:'Lato', sans-serif;
+  display: block;
+}
+
+
+.button2  {
+  text-decoration: none;
+  color: #5CCA0E;
+  font-family: 'Lato', sans-serif;
+  display: block;
 }
 
 .button1:hover {
@@ -331,6 +357,7 @@ background-position: center;
 
 .text1 {}
 
+
 }
 
 @media only screen and (max-width: 1200px){
@@ -338,7 +365,6 @@ background-position: center;
   display: none;
 }
 
-.text1 {display: none;}
 
   .text3 {float:left;width:100%;display: inline-block;  color: #FFF; background-color: #5CCA0E;
   text-align: center; height: auto;}
@@ -384,6 +410,16 @@ padding: 40px;
     background-position: center;
   }
 
+  .text50 {
+    width: 100%;
+    height: 400px;
+    background-color: #FFF;
+    display: inline-block;
+    background-image: url("billed.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
   .text4 {float:left;width:100%;display: inline-block;  color: #FFF; background-color: #5CCA0E;
   text-align: center; height: auto;}
 
@@ -423,9 +459,7 @@ padding: 40px;
     height: 400px;
     background-color: #FFF;
     display: inline-block;
-    background-image: url("billed.jpg");
-    background-size: cover;
-    background-position: center;
+object-fit: cover;
   }
 
   .button11 {
@@ -464,6 +498,51 @@ padding: 40px;
   height: 60vh;
   }
 
+
+  .button1 {
+    margin: 16vh;
+    padding: 30px;
+    font-size: 20px;
+    background-color: #FFF;
+    color: #5CCA0E;
+    border: 0px;
+  }
+
+  .button1 {
+    text-decoration: none;
+    color: #5CCA0E;
+    font-family:'Lato', sans-serif;
+    display: block;
+  }
+
+
+  .button2  {
+    text-decoration: none;
+    color: #5CCA0E;
+    font-family: 'Lato', sans-serif;
+    display: block;
+  }
+
+  .button1:hover {
+    background-color: #013220;
+    color: #FFF;
+    border: 0px;
+  }
+
+  .button2 {
+    margin: 16vh;
+    padding: 30px;
+    font-size: 20px;
+    background-color: #FFF;
+    color: #5CCA0E;
+    border: 0px;
+  }
+
+  .button2:hover {
+    background-color: #013220;
+    color: #FFF;
+    border: 0px;
+  }
 
   .button12:hover {
     background-image: url("ok7.jpg");
@@ -550,4 +629,12 @@ padding: 40px;
   font-size: 125%;
   }
 
+.text {
+display: none;
+
+}
+
+.text5 {
+  display: none;
+}
   }
