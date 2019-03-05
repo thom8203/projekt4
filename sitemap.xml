@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset>
+    
+<loc>http://langeskov.tcln-design.dk/index.html/</loc>
+<lastmod>2019-05-09T55:01TZD</lastmod>
+<changefreq>daily</changefreq>
+<priority>1</priority>
+
+</urlset>
+
+<url>
+    <loc>http://langeskov.tcln-design.dk/index.html/</loc>
+    <image:image>
+        <image:loc>http://langeskov.tcln-design.dk/aktivitet.png</image:loc>
+        <image:caption>Langeskov Borgerforening afholder årligt deres Generalforsamling i Langeskov, her inviteres alle medlemmere og der vælges ny formand for Foreningen.</image:caption>
+        <image:geo_location>5550 Langeskov, Danmark</image:geo_location>
+        <image:title>Billed fra Generalforsamlingen ved Langeskov Borgerforening</image:title>
+    </image:image>
+    </url>
+
+<url>
+    <loc>http://langeskov.tcln-design.dk/index.html/</loc>
+    <image:image>
+        <image:loc>http://langeskov.tcln-design.dk/billed.jpg</image:loc>
+        <image:caption>Hvert år i sidste weekend af September, afholder Langeskov Borgerforening det årlige Kræmmermarkedet. Kræmmermarkedet tiltrækker folk fra hele kommunen og landet, hele markedet bygger op omkring boder og et levende og festligt Tivoli. </image:caption>
+        <image:geo_location>5550 Langeskov, Danmark</image:geo_location>
+        <image:title>Billed fra Kræmmermarkedet afholdt af Langeskov Borgerforening</image:title>
+    </image:image>
+    </url>
