@@ -79,7 +79,7 @@ padding-bottom: 4%;
 .text3 {float: left;width:50%;display: inline;  color: #FFF;background-color: #5CCA0E;
 text-align: center; height: 100vh;}
 
-.text3 h1 {
+.text3 h3 {
   font-family: "Roboto";
   font-size: 30px;
   text-align: center;
@@ -151,7 +151,7 @@ text-align: center;
 .text4 {float: right;width:50%;display: inline;  color: #FFF;background-color: #5CCA0E;
 text-align: center; height: 100vh;}
 
-.text4 h1 {
+.text4 h3 {
 font-family: "Roboto";
 font-size: 30px;
 text-align: center;
@@ -337,7 +337,7 @@ footer {
 
 }
 
-footer h2 {
+footer p {
 padding-top: 5vh;
 font-family: "lato";
 color: #FFF;
@@ -369,7 +369,7 @@ background-position: center;
   .text3 {float:left;width:100%;display: inline-block;  color: #FFF; background-color: #5CCA0E;
   text-align: center; height: auto;}
 
-  .text3 h1 {
+  .text3 h3 {
     font-family: "Roboto";
     font-size: 150%;
     text-align: center;
@@ -423,7 +423,7 @@ padding: 40px;
   .text4 {float:left;width:100%;display: inline-block;  color: #FFF; background-color: #5CCA0E;
   text-align: center; height: auto;}
 
-  .text4 h1 {
+  .text4 h3 {
     font-family: "Roboto";
     font-size: 150%;
     text-align: center;

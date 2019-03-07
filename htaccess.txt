@@ -1,5 +1,5 @@
-ErrorDocument 404 http://www.langeskov.tcln-design.dk/error.html
+ErrorDocument 404 http://www.langeskov.tcln-design.dk/404.html
 RewriteEngine On
 RewriteBase /
-RewriteCond %{HTTP_HOST} ^www.yourdomain.com [NC]
-RewriteRule ^(.*)$ http://yourdomain.com/$1 [L,R=301]
+RewriteCond %{HTTP_HOST} ^www.langeskov.tcln-design.dk [NC]
+RewriteRule ^(.*)$ http://langeskov.tcln-design.dk/$1 [L,R=301]

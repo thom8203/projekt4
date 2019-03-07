@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset>
-    
+  
+<url>  
 <loc>http://langeskov.tcln-design.dk/index.html/</loc>
 <lastmod>2019-05-09T55:01TZD</lastmod>
 <changefreq>daily</changefreq>
 <priority>1</priority>
-
-</urlset>
+</url>
 
 <url>
     <loc>http://langeskov.tcln-design.dk/index.html/</loc>
@@ -27,3 +27,6 @@
         <image:title>Billed fra Kræmmermarkedet afholdt af Langeskov Borgerforening</image:title>
     </image:image>
     </url>
+
+
+</urlset>
